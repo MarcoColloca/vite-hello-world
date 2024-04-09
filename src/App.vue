@@ -1,10 +1,19 @@
 <script>
+    import { defineAsyncComponent } from 'vue'
+
+
     export default{
         data() {
             return {
                 message: '(ง•̀_•́)ง',
             }
         },
+
+        components:{
+            "AppTitle": defineAsyncComponent(() => import ('./components/AppTitle.vue')),
+            "AppHero": defineAsyncComponent(() => import ('./components/AppHero.vue'))
+        },
+
         methods: {
             sayHello(){
                 console.log('hello')
@@ -17,8 +26,11 @@
     <div>
         <div>
             <h1 class="title">
-              {{ message }}
-            </h1>            
+              {{ message }}  
+              A          
+            </h1>    
+            <AppTitle></AppTitle>
+            <AppHero></AppHero>
         </div>
     </div>
 </template>
