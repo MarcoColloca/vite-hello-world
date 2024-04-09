@@ -25,11 +25,8 @@
 <template>
     <div>
         <div>
-            <h1 class="title">
-              {{ message }}  
-              A          
-            </h1>    
             <AppTitle></AppTitle>
+            
             <AppHero></AppHero>
         </div>
     </div>
