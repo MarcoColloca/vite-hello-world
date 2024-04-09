@@ -11,21 +11,26 @@
 
 
 <template>
-    <div>
-        <div>
-            <h1 class="title">
-              {{ title }}
-            </h1>            
-        </div>
+    <div class="title__section">
+        <h1 class="title">
+            {{ title }}
+        </h1>            
     </div>
 </template>
 
 
 
 <style scoped>
-  .title{
-    color: crimson;
-    font-size: 50px;
-    text-align: center;
-  }
+
+    .title__section{
+        background-color: darkslategrey;
+
+    }
+
+    .title{
+        padding: 30px 0;
+        color: crimson;
+        font-size: 50px;
+        text-align: center;
+    }
 </style>

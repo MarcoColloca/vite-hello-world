@@ -24,19 +24,15 @@
 
 <template>
     <div>
-        <div>
-            <AppTitle></AppTitle>
-            
-            <AppHero></AppHero>
-        </div>
+        
+        <AppTitle></AppTitle>
+
+        <AppHero></AppHero>
+        
     </div>
 </template>
 
 
 <style>
-  .title{
-    color: crimson;
-    font-size: 50px;
-    text-align: center;
-  }
+
 </style>
