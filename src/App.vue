@@ -1,6 +1,11 @@
 <script>
     import { defineAsyncComponent } from 'vue'
 
+    /* Versione Standard di importazione componenti (Continua...)
+     import AppTitle from './components/AppTitle.vue';
+     import AppHero from './components/AppHero.vue';
+    */
+
 
     export default{
         data() {
@@ -11,7 +16,12 @@
 
         components:{
             "AppTitle": defineAsyncComponent(() => import ('./components/AppTitle.vue')),
-            "AppHero": defineAsyncComponent(() => import ('./components/AppHero.vue'))
+            "AppHero": defineAsyncComponent(() => import ('./components/AppHero.vue')),
+
+            /* (...continua) Versione Standard di importazione componenti
+             AppHero,
+             AppTitle,
+            */
         },
 
         methods: {
