@@ -26,16 +26,16 @@
 
 <style scoped>
     .hero-title{
-        color: rgb(30, 14, 255);
+        color: rgb(86, 14, 255);
         font-size: 40px;
         text-align: center;
         margin-bottom: 75px;
     }
 
     .hero__section{
-        height: 100vh;
+        /* height: 100vh; */
         width: 100%;
-        padding: 100px 0;
+        padding-top: 100px;
         background-color: rgb(0, 0, 0);
         position: relative;
     }
